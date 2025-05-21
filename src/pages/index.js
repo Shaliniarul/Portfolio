@@ -166,7 +166,8 @@ export default function PremiumPortfolio() {
                   <div className="p-6">
                     <h3 className="text-xl font-bold mb-2">{project.title}</h3>
                     <p className="text-gray-600 mb-4">{project.description}</p>
-                    <div className="flex flex-wrap gap-2 mb-4">
+                    <div className="flex flex-wrap gap-2 mb-4
+                    ">
                       {project.tags.map((tag) => (
                         <span 
                           key={tag}
