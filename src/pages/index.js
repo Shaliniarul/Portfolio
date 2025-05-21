@@ -94,16 +94,7 @@ export default function PremiumPortfolio() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <motion.div
-              className="w-32 h-32 mx-auto mb-8 rounded-full overflow-hidden border-4 border-white shadow-xl"
-              whileHover={{ scale: 1.05 }}
-            >
-              <img 
-                src="/profile.jpg" 
-                alt="Profile" 
-                className="w-full h-full object-cover"
-              />
-            </motion.div>
+            
             <motion.h1 
               className="text-5xl md:text-6xl font-bold mb-6"
               initial={{ opacity: 0 }}
